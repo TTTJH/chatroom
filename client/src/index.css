@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.login-form {
+  max-width: 300px;
+  margin: 0px auto;
+  border: 1px solid gray;
+  padding: 15px;
+  box-shadow: 0px 0px 40px gray;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.header{
+  position: relative;
+  background-color: #fff;
+  height: 55px;
+  box-shadow : 0 2px 8px #f0f1f2;
+}
+.userHeader{
+  position: absolute;
+  top: 50%;
+  margin-top: -22.5px;
+  right: 3vw;
+  width: 45px;
+  height: 45px;
+  background-color: #ffe837;
+  color: white;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chat{
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 30px gray;
+  /* background-color:pink; */
+}
+
+.chat-bottom{
+  position: absolute;
+  bottom: 0px;
+  width: 300px;
+  height:40px;
+  /* background-color: gray; */
+}
+
+.userHeader2{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffe837;
+  position: absolute;
+  top:-5px;
+}
+.myHeader{
+  right: 0px;
+}
+.otherHeader{
+  left: 0px;
+}
+
+.msg-box{
+  position: relative;
+  margin: 15px 0px;
+  /* border: 1px solid pink; */
+}
+
+.my-msg-box{
+  text-align: right;
+}
+.content{
+  max-width:200px;
+  margin: 0px 10px;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #ffe837;
+}
+
+.myContent{
+  margin-right: 45px;
+}
+
+.otherContent{
+  margin-left: 45px;
+}
+
+.chat-box{
+  height: 450px;
+  overflow-y: auto;
+  padding-top: 20px;
+  /* background-color: pink; */
+}
